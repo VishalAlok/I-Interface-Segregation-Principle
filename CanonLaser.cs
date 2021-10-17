@@ -6,17 +6,6 @@ namespace Interface_Segregation_Principle
 {
     class CanonLaser : iPrint
     {
-        //public bool FaxContent(string Content)
-        //{
-        //    Console.WriteLine("Fax done");
-        //    return true;
-        //}
-
-        //public bool PhotoCopyContent(string Content)
-        //{
-        //    Console.WriteLine("PhotoCopy done");
-        //    return true;
-        //}
 
         public bool printContent(string Content)
         {
@@ -35,5 +24,17 @@ namespace Interface_Segregation_Principle
         //    Console.WriteLine("Scan done");
         //    return true;
         //}
+        //public bool FaxContent(string Content)
+        //{
+        //    Console.WriteLine("Fax done");
+        //    return true;
+        //}
+
+        //public bool PhotoCopyContent(string Content)
+        //{
+        //    Console.WriteLine("PhotoCopy done");
+        //    return true;
+        //}
+
     }
 }
